@@ -1,0 +1,13 @@
+{
+  "name": "chzhshch-108-plus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "缠中说禅教你炒股票108课加强版 —— 原文 Markdown 与 Web 电子书构建",
+  "scripts": {
+    "build": "node build-web-ebook.js",
+    "verify": "node web/verify-ebook.js",
+    "smoke": "node web/smoke-test.js",
+    "merge": "node mergeMarkdownFiles.js"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
